@@ -1,0 +1,18 @@
+============================================
+ BANKER'S ALGORITHM - DEADLOCK AVOIDANCE
+============================================
+Enter number of processes (1-20): Enter number of resource types (1-10): 
+Enter Allocation matrix (5 x 3):
+P0: P1: P2: P3: P4: 
+Enter Maximum matrix (5 x 3):
+P0: P1: P2: P3: P4: 
+Enter Available resources (3 values): 
+Need Matrix (Max - Allocation):
+P0: 7 4 3 
+P1: 1 2 2 
+P2: 6 0 0 
+P3: 0 1 1 
+P4: 4 3 1 
+
+Result: SYSTEM IS IN A SAFE STATE.
+Safe sequence: P1 -> P3 -> P4 -> P0 -> P2
